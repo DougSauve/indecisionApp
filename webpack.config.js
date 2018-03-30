@@ -22,3 +22,6 @@ module.exports = {
     ]
   }
 }
+
+
+///THIS AFTERNOON: rework the entire project - one component per file, importing/exporting!
