@@ -4,7 +4,7 @@ module.exports = {
   mode: 'development',
   entry: __dirname + '/src/app.js',
   output: {
-    path: path.resolve(__dirname, 'public'),
+    path: path.join(__dirname, 'public'),
     filename: 'bundle.js'
   },
   module: {
@@ -15,11 +15,18 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['@babel/preset-env', '@babel/preset-react']
+            presets: ['@babel/preset-env', '@babel/preset-react'],
+            plugins: [
+              ['transform-class-properties', { 'spec': true }]
+            ]
           }
         }
       }
     ]
+  },
+  devtool: 'source-map',
+  devServer: {
+    contentBase: path.join(__dirname, 'public')
   }
 }
 
