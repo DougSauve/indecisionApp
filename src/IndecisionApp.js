@@ -9,7 +9,7 @@ import AddOption from './AddOption';
 export default class IndecisionApp extends React.Component {
 
   state = {
-    options: this.props.options
+    options: []
   };
 
   handleAddOption = (option) => {
@@ -21,17 +21,14 @@ export default class IndecisionApp extends React.Component {
 
     this.setState((prevState) => ({ options: prevState.options.concat(option) }));
   };
-
   handleDeleteOptions = () => {
     this.setState(() => ({ options: [] }));
   };
-
   handleDeleteOption = (optionToRemove) => {
     this.setState((prevState) => ({
       options: prevState.options.filter((option) => option !== optionToRemove)
     }));
   };
-
   handlePick = () => {
     const optionsArray = this.state.options;
     const rand = Math.floor(Math.random() * optionsArray.length);
@@ -39,13 +36,21 @@ export default class IndecisionApp extends React.Component {
   };
 
   componentDidMount() {
-    console.log('component did mount');
+    try {
+      if (localStorage.length !== 0) {
+        const json = localStorage.getItem('options');
+        const options = JSON.parse(json);
+        this.setState(() => ({ options }));
+      }
+    }
+    catch (e) {}
   }
-
   componentDidUpdate(prevProps, prevState){
-    console.log('component did update');
+    if (prevState.options.length !== this.state.options.length) {
+      const json = JSON.stringify(this.state.options);
+      localStorage.setItem('options', json);
+    }
   }
-
   componentWillUnmount() {
     console.log('component will unmount.');
   }
