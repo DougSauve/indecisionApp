@@ -1,7 +1,6 @@
 const React = require('react');
 
-const Option = (props) => {
-  return (
+const Option = (props) => (
     <div>
       <span> Option: {props.optionText} </span>
       <button onClick = {((e) => {
@@ -11,7 +10,6 @@ const Option = (props) => {
         Remove
       </button>
     </div>
-  )
-};
+  );
 
 export {Option as default};

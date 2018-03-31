@@ -1,13 +1,11 @@
 const React = require('react');
 
-const Header = (props) => {
-  return (
+const Header = (props) => (
     <div>
     <h1>{props.title}</h1>
   {props.subtitle && <h3>{props.subtitle}</h3>}
     </div>
-  )
-};
+  );
 
 Header.defaultProps = {
   title: "Indecision"

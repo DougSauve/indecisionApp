@@ -1,7 +1,6 @@
 const React = require('react');
 
-const Action = (props) => {
-  return (
+const Action = (props) => (
     <div>
       <button
         onClick = {props.handlePick}
@@ -10,7 +9,6 @@ const Action = (props) => {
         What to do?
       </button>
     </div>
-  )
-};
+  );
 
 export {Action as default};

@@ -29,6 +29,3 @@ module.exports = {
     contentBase: path.join(__dirname, 'public')
   }
 }
-
-
-///THIS AFTERNOON: rework the entire project - one component per file, importing/exporting!

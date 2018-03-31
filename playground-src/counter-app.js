@@ -1,3 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 class Counter extends React.Component{
   constructor(props) {
     super(props);
@@ -6,7 +9,7 @@ class Counter extends React.Component{
     this.handleReset = this.handleReset.bind(this);
 
     this.state = {
-        count: props.count
+        count: 0
     }
   }
 
@@ -31,6 +34,17 @@ class Counter extends React.Component{
       }
     })
   }
+
+  componentDidMount() {
+    const count = JSON.parse(localStorage.getItem('count'));
+
+    if (count) {
+      this.setState(() => ({ count }));
+    }
+  };
+  componentDidUpdate(prevProps, prevState) {
+    localStorage.setItem('count', JSON.stringify(this.state.count));
+  };
 
   render(){
     return (
