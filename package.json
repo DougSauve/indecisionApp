@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server --mode development --open --watch"
+    "start": "node server.js",
+    "dev": "webpack-dev-server --mode development --open --watch"
   },
   "devDependencies": {},
   "dependencies": {
