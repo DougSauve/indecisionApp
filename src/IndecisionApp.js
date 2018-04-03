@@ -62,7 +62,7 @@ export default class IndecisionApp extends React.Component {
 
   render() {
     const title = 'Indecision';
-    const subtitle = 'Poo on you';
+    const subtitle = `Just can't decide?`;
 
     return (
       <div>

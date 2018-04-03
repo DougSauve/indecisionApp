@@ -71,6 +71,25 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./node_modules/normalize.css/normalize.css":
+/*!*********************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./node_modules/normalize.css/normalize.css ***!
+  \*********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */\n/* Document\n   ========================================================================== */\n/**\n * 1. Correct the line height in all browsers.\n * 2. Prevent adjustments of font size after orientation changes in iOS.\n */\nhtml {\n  line-height: 1.15;\n  /* 1 */\n  -webkit-text-size-adjust: 100%;\n  /* 2 */ }\n\n/* Sections\n   ========================================================================== */\n/**\n * Remove the margin in all browsers.\n */\nbody {\n  margin: 0; }\n\n/**\n * Correct the font size and margin on `h1` elements within `section` and\n * `article` contexts in Chrome, Firefox, and Safari.\n */\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0; }\n\n/* Grouping content\n   ========================================================================== */\n/**\n * 1. Add the correct box sizing in Firefox.\n * 2. Show the overflow in Edge and IE.\n */\nhr {\n  box-sizing: content-box;\n  /* 1 */\n  height: 0;\n  /* 1 */\n  overflow: visible;\n  /* 2 */ }\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\npre {\n  font-family: monospace, monospace;\n  /* 1 */\n  font-size: 1em;\n  /* 2 */ }\n\n/* Text-level semantics\n   ========================================================================== */\n/**\n * Remove the gray background on active links in IE 10.\n */\na {\n  background-color: transparent; }\n\n/**\n * 1. Remove the bottom border in Chrome 57-\n * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.\n */\nabbr[title] {\n  border-bottom: none;\n  /* 1 */\n  text-decoration: underline;\n  /* 2 */\n  text-decoration: underline dotted;\n  /* 2 */ }\n\n/**\n * Add the correct font weight in Chrome, Edge, and Safari.\n */\nb,\nstrong {\n  font-weight: bolder; }\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\ncode,\nkbd,\nsamp {\n  font-family: monospace, monospace;\n  /* 1 */\n  font-size: 1em;\n  /* 2 */ }\n\n/**\n * Add the correct font size in all browsers.\n */\nsmall {\n  font-size: 80%; }\n\n/**\n * Prevent `sub` and `sup` elements from affecting the line height in\n * all browsers.\n */\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline; }\n\nsub {\n  bottom: -0.25em; }\n\nsup {\n  top: -0.5em; }\n\n/* Embedded content\n   ========================================================================== */\n/**\n * Remove the border on images inside links in IE 10.\n */\nimg {\n  border-style: none; }\n\n/* Forms\n   ========================================================================== */\n/**\n * 1. Change the font styles in all browsers.\n * 2. Remove the margin in Firefox and Safari.\n */\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit;\n  /* 1 */\n  font-size: 100%;\n  /* 1 */\n  line-height: 1.15;\n  /* 1 */\n  margin: 0;\n  /* 2 */ }\n\n/**\n * Show the overflow in IE.\n * 1. Show the overflow in Edge.\n */\nbutton,\ninput {\n  /* 1 */\n  overflow: visible; }\n\n/**\n * Remove the inheritance of text transform in Edge, Firefox, and IE.\n * 1. Remove the inheritance of text transform in Firefox.\n */\nbutton,\nselect {\n  /* 1 */\n  text-transform: none; }\n\n/**\n * Correct the inability to style clickable types in iOS and Safari.\n */\nbutton,\n[type=\"button\"],\n[type=\"reset\"],\n[type=\"submit\"] {\n  -webkit-appearance: button; }\n\n/**\n * Remove the inner border and padding in Firefox.\n */\nbutton::-moz-focus-inner,\n[type=\"button\"]::-moz-focus-inner,\n[type=\"reset\"]::-moz-focus-inner,\n[type=\"submit\"]::-moz-focus-inner {\n  border-style: none;\n  padding: 0; }\n\n/**\n * Restore the focus styles unset by the previous rule.\n */\nbutton:-moz-focusring,\n[type=\"button\"]:-moz-focusring,\n[type=\"reset\"]:-moz-focusring,\n[type=\"submit\"]:-moz-focusring {\n  outline: 1px dotted ButtonText; }\n\n/**\n * Correct the padding in Firefox.\n */\nfieldset {\n  padding: 0.35em 0.75em 0.625em; }\n\n/**\n * 1. Correct the text wrapping in Edge and IE.\n * 2. Correct the color inheritance from `fieldset` elements in IE.\n * 3. Remove the padding so developers are not caught out when they zero out\n *    `fieldset` elements in all browsers.\n */\nlegend {\n  box-sizing: border-box;\n  /* 1 */\n  color: inherit;\n  /* 2 */\n  display: table;\n  /* 1 */\n  max-width: 100%;\n  /* 1 */\n  padding: 0;\n  /* 3 */\n  white-space: normal;\n  /* 1 */ }\n\n/**\n * Add the correct vertical alignment in Chrome, Firefox, and Opera.\n */\nprogress {\n  vertical-align: baseline; }\n\n/**\n * Remove the default vertical scrollbar in IE 10+.\n */\ntextarea {\n  overflow: auto; }\n\n/**\n * 1. Add the correct box sizing in IE 10.\n * 2. Remove the padding in IE 10.\n */\n[type=\"checkbox\"],\n[type=\"radio\"] {\n  box-sizing: border-box;\n  /* 1 */\n  padding: 0;\n  /* 2 */ }\n\n/**\n * Correct the cursor style of increment and decrement buttons in Chrome.\n */\n[type=\"number\"]::-webkit-inner-spin-button,\n[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto; }\n\n/**\n * 1. Correct the odd appearance in Chrome and Safari.\n * 2. Correct the outline style in Safari.\n */\n[type=\"search\"] {\n  -webkit-appearance: textfield;\n  /* 1 */\n  outline-offset: -2px;\n  /* 2 */ }\n\n/**\n * Remove the inner padding in Chrome and Safari on macOS.\n */\n[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none; }\n\n/**\n * 1. Correct the inability to style clickable types in iOS and Safari.\n * 2. Change font properties to `inherit` in Safari.\n */\n::-webkit-file-upload-button {\n  -webkit-appearance: button;\n  /* 1 */\n  font: inherit;\n  /* 2 */ }\n\n/* Interactive\n   ========================================================================== */\n/*\n * Add the correct display in Edge, IE 10+, and Firefox.\n */\ndetails {\n  display: block; }\n\n/*\n * Add the correct display in all browsers.\n */\nsummary {\n  display: list-item; }\n\n/* Misc\n   ========================================================================== */\n/**\n * Add the correct display in IE 10+.\n */\ntemplate {\n  display: none; }\n\n/**\n * Add the correct display in IE 10.\n */\n[hidden] {\n  display: none; }\n", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/styles/styles.scss":
 /*!***************************************************************************************************!*\
   !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/styles/styles.scss ***!
@@ -83,7 +102,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, "* {\n  color: blue; }\n", ""]);
+exports.push([module.i, "html {\n  font-size: 62.5%; }\n\nbody {\n  background: #333745;\n  font-family: Helvetica, Arial, sans-serif;\n  font-size: 1.6rem; }\n\nbutton {\n  cursor: pointer; }\n\nbutton:disabled {\n  cursor: default; }\n\n.add-option-error {\n  color: #a5afd7;\n  font-style: italic;\n  padding: 0 1.6rem;\n  margin-top: 1.6rem; }\n\n.add-option {\n  display: flex;\n  padding: 1.6rem; }\n\n.add-option__input {\n  background: #333745;\n  border: none;\n  border-bottom: 0.3rem solid #525a6e;\n  color: #a5afd7;\n  flex-grow: 1;\n  margin-right: 1.2rem;\n  padding: 1.2rem; }\n\n.big-button {\n  background: #8357c5;\n  border: none;\n  border-bottom: 0.6rem solid #693cad;\n  color: white;\n  font-size: 3.2rem;\n  font-weight: 700;\n  margin-bottom: 4.8rem;\n  padding: 2.4rem;\n  width: 100%; }\n\n.big-button:disabled {\n  opacity: 0.5; }\n\n.button {\n  background: #8357c5;\n  border: none;\n  border-bottom: 0.3rem solid #693cad;\n  color: white;\n  font-weight: 500;\n  padding: 1.2rem; }\n\n.button--link {\n  background: none;\n  border: none;\n  color: #a5afd7;\n  padding: 0; }\n\n.container {\n  max-width: 60rem;\n  margin: 0 auto;\n  padding: 0 1.6rem; }\n\n.header {\n  background: #20222b;\n  color: white;\n  margin-bottom: 4.8rem;\n  padding: 1.6rem 0; }\n\n.header__title {\n  font-size: 3.2rem;\n  margin: 0; }\n\n.header__subtitle {\n  color: #a5afd7;\n  font-size: 1.6rem;\n  font-weight: 500;\n  margin: 0; }\n\n.ReactModalPortal > div {\n  opacity: 0; }\n\n.ReactModalPortal .ReactModal__Overlay {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  transition: opacity 200ms ease-in-out; }\n\n.ReactModalPortal .ReactModal__Overlay--after-open {\n  opacity: 1; }\n\n.ReactModalPortal .ReactModal__Overlay--before-close {\n  opacity: 0; }\n\n.modal {\n  background: #464b5e;\n  color: white;\n  max-width: 30rem;\n  outline: none;\n  padding: 3.2rem;\n  text-align: center; }\n\n.modal__title {\n  margin: 0 0 1.6rem 0; }\n\n.modal__body {\n  margin: 0 0 3.2rem 0;\n  font-size: 2rem;\n  font-weight: 300;\n  word-break: break-all; }\n\n.option {\n  border-bottom: 1px solid #5c627b;\n  display: flex;\n  justify-content: space-between;\n  padding: 3.2rem 1.6rem; }\n\n.option__text {\n  color: white;\n  font-weight: 500;\n  font-size: 2rem;\n  margin: 0;\n  word-break: break-all; }\n\n.widget {\n  background: #464b5e;\n  margin-bottom: 4.8rem; }\n\n.widget-header {\n  background: #3c4251;\n  color: #a5afd7;\n  display: flex;\n  justify-content: space-between;\n  padding: 1.6rem; }\n\n.widget-header__title {\n  margin: 0; }\n\n.widget-message {\n  color: #a5afd7;\n  text-align: center;\n  padding: 3.2rem;\n  font-weight: 700;\n  border-bottom: 1px solid #5c627b; }\n", ""]);
 
 // exports
 
@@ -1083,6 +1102,31 @@ if (true) {
 }
 
 module.exports = warning;
+
+/***/ }),
+
+/***/ "./node_modules/normalize.css/normalize.css":
+/*!**************************************************!*\
+  !*** ./node_modules/normalize.css/normalize.css ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(/*! !../css-loader!../sass-loader/lib/loader.js!./normalize.css */ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./node_modules/normalize.css/normalize.css");
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(/*! ../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {}
 
 /***/ }),
 
@@ -22367,6 +22411,7 @@ var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var Action = function Action(props) {
   return React.createElement("div", null, React.createElement("button", {
+    className: "big-button",
     onClick: props.handlePick,
     disabled: !props.itemsExist
   }, "What to do?"));
@@ -22452,14 +22497,25 @@ function (_React$Component) {
   }
 
   _createClass(AddOption, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      document.getElementsByName('option')[0].focus();
+    }
+  }, {
     key: "render",
     value: function render() {
-      return React.createElement("div", null, this.state.error && React.createElement("p", null, this.state.error), React.createElement("form", {
+      return React.createElement("div", null, this.state.error && React.createElement("p", {
+        className: "add-option-error"
+      }, this.state.error), React.createElement("form", {
+        className: "add-option",
         onSubmit: this.handleAddOption
       }, React.createElement("input", {
+        className: "add-option__input",
         type: "text",
         name: "option"
-      }), React.createElement("button", null, "Add an option, duuuude")));
+      }), React.createElement("button", {
+        className: "button"
+      }, "Add an option, duuuude")));
     }
   }]);
 
@@ -22488,7 +22544,15 @@ exports.default = void 0;
 var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var Header = function Header(props) {
-  return React.createElement("div", null, React.createElement("h1", null, props.title), props.subtitle && React.createElement("h3", null, props.subtitle));
+  return React.createElement("div", {
+    className: "header"
+  }, React.createElement("div", {
+    className: "container"
+  }, React.createElement("h1", {
+    className: "header__title"
+  }, props.title), props.subtitle && React.createElement("h3", {
+    className: "header__subtitle"
+  }, props.subtitle)));
 };
 
 exports.default = Header;
@@ -22665,16 +22729,20 @@ function (_React$Component) {
       var subtitle = 'Poo on you';
       return React.createElement("div", null, React.createElement(_Header.default, {
         subtitle: subtitle
-      }), React.createElement(_Action.default, {
+      }), React.createElement("div", {
+        className: "container"
+      }, React.createElement(_Action.default, {
         itemsExist: !!this.state.options.length,
         handlePick: this.handlePick
-      }), React.createElement(_Options.default, {
+      }), React.createElement("div", {
+        className: "widget"
+      }, React.createElement(_Options.default, {
         options: this.state.options,
         handleDeleteOptions: this.handleDeleteOptions,
         handleDeleteOption: this.handleDeleteOption
       }), React.createElement(_AddOption.default, {
         handleAddOption: this.handleAddOption
-      }), React.createElement(_OptionModal.default, {
+      }))), React.createElement(_OptionModal.default, {
         selectedOption: this.state.selectedOption,
         handleClearOption: this.handleClearOption
       }));
@@ -22709,7 +22777,12 @@ exports.default = void 0;
 var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var Option = function Option(props) {
-  return React.createElement("div", null, React.createElement("span", null, " Option: ", props.optionText, " "), React.createElement("button", {
+  return React.createElement("div", {
+    className: "option"
+  }, React.createElement("p", {
+    className: "option__text"
+  }, " ", props.count, ". ", props.optionText, " "), React.createElement("button", {
+    className: "button button--link",
     onClick: function onClick(e) {
       props.handleDeleteOption(props.optionText);
     }
@@ -22745,10 +22818,17 @@ var OptionalModal = function OptionalModal(props) {
   return _react.default.createElement(_reactModal.default, {
     isOpen: !!props.selectedOption,
     onRequestClose: props.handleClearOption,
-    contentLabel: "Selected Option"
-  }, _react.default.createElement("h3", null, "Selected Option:"), _react.default.createElement("p", null, props.selectedOption), _react.default.createElement("button", {
+    contentLabel: "Selected Option",
+    closeTimeoutMS: 200,
+    className: "modal"
+  }, _react.default.createElement("h3", {
+    className: "modal__title"
+  }, "Selected Option:"), _react.default.createElement("p", {
+    className: "modal__body"
+  }, props.selectedOption), _react.default.createElement("button", {
+    className: "button",
     onClick: props.handleClearOption
-  }, "Thanks!"));
+  }, "Okay"));
 };
 
 var _default = OptionalModal;
@@ -22778,16 +22858,23 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var Options = function Options(props) {
-  return props.options.length > 0 ? React.createElement("div", null, //here, we're modifying(mapping) the contents the the props.options array and returning that, without changing the actual array.
-  props.options.map(function (option) {
+  return React.createElement("div", null, React.createElement("div", {
+    className: "widget-header"
+  }, React.createElement("h3", {
+    className: "widget-header__title"
+  }, "Your Options:"), React.createElement("button", {
+    className: "button button--link",
+    onClick: props.handleDeleteOptions
+  }, "Remove all options")), props.options.length > 0 ? props.options.map(function (option, index) {
     return React.createElement(_Option.default, {
       key: option,
+      count: index + 1,
       optionText: option,
       handleDeleteOption: props.handleDeleteOption
     });
-  }), React.createElement("button", {
-    onClick: props.handleDeleteOptions
-  }, "Remove all options")) : React.createElement("div", null, React.createElement("p", null, "Add an option to get started!"));
+  }) : React.createElement("div", {
+    className: "widget-message"
+  }, "Please enter an option!"));
 }; //when passing in a function by reference, you lose your this binding, because it recreates the function elsewhere when it calls it. It isn't the same instance of it. That's why you need bind.
 
 
@@ -22806,6 +22893,8 @@ exports.default = Options;
 
 
 var _IndecisionApp = _interopRequireDefault(__webpack_require__(/*! ./IndecisionApp */ "./src/IndecisionApp.js"));
+
+__webpack_require__(/*! normalize.css/normalize.css */ "./node_modules/normalize.css/normalize.css");
 
 __webpack_require__(/*! ./styles/styles.scss */ "./src/styles/styles.scss");
 
