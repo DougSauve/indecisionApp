@@ -1,9 +1,12 @@
 const React = require('react');
 
 const Option = (props) => (
-    <div>
-      <span> Option: {props.optionText} </span>
-      <button onClick = {((e) => {
+    <div className = "option">
+
+      <p className = "option__text"> {props.count}. {props.optionText} </p>
+      <button
+        className = "button button--link"
+        onClick = {((e) => {
         props.handleDeleteOption(props.optionText)
         })}
       >
